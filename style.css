@@ -1,0 +1,611 @@
+@font-face {
+  font-family: 'motion';
+  src:  url('fonts/motion.eot?vbkcy2');
+  src:  url('fonts/motion.eot?vbkcy2#iefix') format('embedded-opentype'),
+    url('fonts/motion.ttf?vbkcy2') format('truetype'),
+    url('fonts/motion.woff?vbkcy2') format('woff'),
+    url('fonts/motion.svg?vbkcy2#motion') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ficon-"], [class*=" ficon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'motion' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ficon-absence:before {
+  content: "\e000";
+}
+.ficon-add-type:before {
+  content: "\e001";
+}
+.ficon-appraisal:before {
+  content: "\e002";
+}
+.ficon-arrow-down:before {
+  content: "\e003";
+}
+.ficon-arrow-fat-left:before {
+  content: "\e004";
+}
+.ficon-arrow-fat-right:before {
+  content: "\e005";
+}
+.ficon-arrow-left:before {
+  content: "\e006";
+}
+.ficon-arrow-right:before {
+  content: "\e007";
+}
+.ficon-arrow-up:before {
+  content: "\e008";
+}
+.ficon-attachment:before {
+  content: "\e009";
+}
+.ficon-bell:before {
+  content: "\e00a";
+}
+.ficon-bell-2:before {
+  content: "\e00b";
+}
+.ficon-bicycle:before {
+  content: "\e00c";
+}
+.ficon-bicycle-parts:before {
+  content: "\e00d";
+}
+.ficon-bookmark-2:before {
+  content: "\e00e";
+}
+.ficon-bus:before {
+  content: "\e00f";
+}
+.ficon-business:before {
+  content: "\e010";
+}
+.ficon-buy-leave:before {
+  content: "\e0b7";
+}
+.ficon-calendar:before {
+  content: "\e011";
+}
+.ficon-calendar-euro:before {
+  content: "\e0b6";
+}
+.ficon-call-in-sick:before {
+  content: "\e012";
+}
+.ficon-care-leave:before {
+  content: "\e013";
+}
+.ficon-chart-bar:before {
+  content: "\e014";
+}
+.ficon-chat:before {
+  content: "\e015";
+}
+.ficon-check-alt:before {
+  content: "\e016";
+}
+.ficon-checkmark:before {
+  content: "\e017";
+}
+.ficon-circle:before {
+  content: "\e018";
+}
+.ficon-clock:before {
+  content: "\e0bd";
+}
+.ficon-clock-2:before {
+  content: "\e019";
+}
+.ficon-clock-3:before {
+  content: "\e01a";
+}
+.ficon-close:before {
+  content: "\e01b";
+}
+.ficon-cloud-download:before {
+  content: "\e01c";
+}
+.ficon-coffee:before {
+  content: "\e01d";
+}
+.ficon-collapse:before {
+  content: "\e01e";
+}
+.ficon-colleagues:before {
+  content: "\e01f";
+}
+.ficon-commuting:before {
+  content: "\e020";
+}
+.ficon-compensation-leave:before {
+  content: "\e021";
+}
+.ficon-consignment:before {
+  content: "\e022";
+}
+.ficon-contacts-tel:before {
+  content: "\e023";
+}
+.ficon-contracts:before {
+  content: "\e024";
+}
+.ficon-coworkers:before {
+  content: "\e0be";
+}
+.ficon-cutlery:before {
+  content: "\e025";
+}
+.ficon-datepicker:before {
+  content: "\e026";
+}
+.ficon-deduct-type:before {
+  content: "\e027";
+}
+.ficon-disability:before {
+  content: "\e028";
+}
+.ficon-document-file:before {
+  content: "\e029";
+}
+.ficon-document-financial:before {
+  content: "\e02a";
+}
+.ficon-document-new:before {
+  content: "\e02b";
+}
+.ficon-document-new-2:before {
+  content: "\e0b9";
+}
+.ficon-document-person:before {
+  content: "\e02c";
+}
+.ficon-document-single:before {
+  content: "\e02d";
+}
+.ficon-document-travel:before {
+  content: "\e02e";
+}
+.ficon-dossier:before {
+  content: "\e02f";
+}
+.ficon-drawer:before {
+  content: "\e030";
+}
+.ficon-edit:before {
+  content: "\e031";
+}
+.ficon-edit-document-file:before {
+  content: "\e032";
+}
+.ficon-education:before {
+  content: "\e033";
+}
+.ficon-envelope:before {
+  content: "\e034";
+}
+.ficon-error:before {
+  content: "\e035";
+}
+.ficon-error-alt:before {
+  content: "\e036";
+}
+.ficon-euro:before {
+  content: "\e037";
+}
+.ficon-exclamation:before {
+  content: "\e038";
+}
+.ficon-eyeglasses:before {
+  content: "\e039";
+}
+.ficon-family:before {
+  content: "\e03a";
+}
+.ficon-file:before {
+  content: "\e0b4";
+}
+.ficon-filled-star:before {
+  content: "\e900";
+}
+.ficon-filter-off:before {
+  content: "\e03b";
+}
+.ficon-filter-on:before {
+  content: "\e03c";
+}
+.ficon-finances:before {
+  content: "\e03d";
+}
+.ficon-fitness:before {
+  content: "\e03e";
+}
+.ficon-flag:before {
+  content: "\e03f";
+}
+.ficon-folder-person:before {
+  content: "\e0bc";
+}
+.ficon-food:before {
+  content: "\e040";
+}
+.ficon-full-payout-ikb:before {
+  content: "\e0ba";
+}
+.ficon-generate:before {
+  content: "\e041";
+}
+.ficon-gift-box:before {
+  content: "\e042";
+}
+.ficon-go:before {
+  content: "\e043";
+}
+.ficon-grid-view:before {
+  content: "\e0c0";
+}
+.ficon-group:before {
+  content: "\e044";
+}
+.ficon-hamburger:before {
+  content: "\e045";
+}
+.ficon-hammer-law:before {
+  content: "\e046";
+}
+.ficon-handshake:before {
+  content: "\e047";
+}
+.ficon-help:before {
+  content: "\e048";
+}
+.ficon-help-documents:before {
+  content: "\e049";
+}
+.ficon-home-dashboard:before {
+  content: "\e04a";
+}
+.ficon-hotel-bed:before {
+  content: "\e04b";
+}
+.ficon-house:before {
+  content: "\e0bf";
+}
+.ficon-id:before {
+  content: "\e04c";
+}
+.ficon-ikb:before {
+  content: "\e04d";
+}
+.ficon-ikb-payout:before {
+  content: "\e04e";
+}
+.ficon-inbox:before {
+  content: "\e04f";
+}
+.ficon-info:before {
+  content: "\e050";
+}
+.ficon-info-square:before {
+  content: "\e051";
+}
+.ficon-key-2:before {
+  content: "\e052";
+}
+.ficon-layers:before {
+  content: "\e053";
+}
+.ficon-leave:before {
+  content: "\e054";
+}
+.ficon-license-car:before {
+  content: "\e055";
+}
+.ficon-life-savings:before {
+  content: "\e056";
+}
+.ficon-lifetime-leave:before {
+  content: "\e057";
+}
+.ficon-link:before {
+  content: "\e058";
+}
+.ficon-list-ul:before {
+  content: "\e059";
+}
+.ficon-list-view:before {
+  content: "\e0c1";
+}
+.ficon-location:before {
+  content: "\e05a";
+}
+.ficon-lock:before {
+  content: "\e05b";
+}
+.ficon-logout:before {
+  content: "\e05c";
+}
+.ficon-man-profile:before {
+  content: "\e05d";
+}
+.ficon-management:before {
+  content: "\e05e";
+}
+.ficon-manager:before {
+  content: "\e05f";
+}
+.ficon-map-process:before {
+  content: "\e060";
+}
+.ficon-maternity-leave:before {
+  content: "\e061";
+}
+.ficon-menu-2:before {
+  content: "\e062";
+}
+.ficon-message-bubble:before {
+  content: "\e063";
+}
+.ficon-moon:before {
+  content: "\e064";
+}
+.ficon-multiple-files:before {
+  content: "\e0b5";
+}
+.ficon-navicon:before {
+  content: "\e065";
+}
+.ficon-network-people:before {
+  content: "\e066";
+}
+.ficon-new:before {
+  content: "\e067";
+}
+.ficon-new-multi-doc:before {
+  content: "\e068";
+}
+.ficon-newfield:before {
+  content: "\e069";
+}
+.ficon-news:before {
+  content: "\e06a";
+}
+.ficon-no-file-uploaded:before {
+  content: "\e06b";
+}
+.ficon-no-results:before {
+  content: "\e06c";
+}
+.ficon-ok:before {
+  content: "\e06d";
+}
+.ficon-organization:before {
+  content: "\e06e";
+}
+.ficon-overdue:before {
+  content: "\e06f";
+}
+.ficon-overtime2:before {
+  content: "\e070";
+}
+.ficon-overtime3:before {
+  content: "\e071";
+}
+.ficon-parental-leave:before {
+  content: "\e072";
+}
+.ficon-parking:before {
+  content: "\e073";
+}
+.ficon-payment:before {
+  content: "\e074";
+}
+.ficon-payroll:before {
+  content: "\e075";
+}
+.ficon-payslips-to-dpd:before {
+  content: "\e0bb";
+}
+.ficon-pdf:before {
+  content: "\e076";
+}
+.ficon-pending:before {
+  content: "\e077";
+}
+.ficon-people:before {
+  content: "\e078";
+}
+.ficon-percentage-discount:before {
+  content: "\e079";
+}
+.ficon-person:before {
+  content: "\e07a";
+}
+.ficon-person-2:before {
+  content: "\e07b";
+}
+.ficon-phone:before {
+  content: "\e07c";
+}
+.ficon-portal:before {
+  content: "\e07d";
+}
+.ficon-process:before {
+  content: "\e07e";
+}
+.ficon-process-info:before {
+  content: "\e07f";
+}
+.ficon-process-new:before {
+  content: "\e080";
+}
+.ficon-products:before {
+  content: "\e081";
+}
+.ficon-question:before {
+  content: "\e082";
+}
+.ficon-recovery:before {
+  content: "\e083";
+}
+.ficon-redo:before {
+  content: "\e084";
+}
+.ficon-refresh-3:before {
+  content: "\e085";
+}
+.ficon-reimbursement:before {
+  content: "\e086";
+}
+.ficon-remove:before {
+  content: "\e087";
+}
+.ficon-remove-2:before {
+  content: "\e088";
+}
+.ficon-rocking-chair:before {
+  content: "\e089";
+}
+.ficon-rotate-right:before {
+  content: "\e08a";
+}
+.ficon-salary:before {
+  content: "\e08b";
+}
+.ficon-save-disquette:before {
+  content: "\e08c";
+}
+.ficon-search:before {
+  content: "\e08d";
+}
+.ficon-search-x:before {
+  content: "\e08e";
+}
+.ficon-sell-leave:before {
+  content: "\e0b8";
+}
+.ficon-send:before {
+  content: "\e08f";
+}
+.ficon-send-message:before {
+  content: "\e090";
+}
+.ficon-settings:before {
+  content: "\e091";
+}
+.ficon-show-more:before {
+  content: "\e092";
+}
+.ficon-speedometer:before {
+  content: "\e093";
+}
+.ficon-star:before {
+  content: "\e094";
+}
+.ficon-subway:before {
+  content: "\e095";
+}
+.ficon-sun:before {
+  content: "\e096";
+}
+.ficon-tag:before {
+  content: "\e097";
+}
+.ficon-tags:before {
+  content: "\e098";
+}
+.ficon-taxi:before {
+  content: "\e099";
+}
+.ficon-text:before {
+  content: "\e09a";
+}
+.ficon-th-list:before {
+  content: "\e09b";
+}
+.ficon-time-compensation:before {
+  content: "\e09c";
+}
+.ficon-travel:before {
+  content: "\e09d";
+}
+.ficon-tree:before {
+  content: "\e09e";
+}
+.ficon-triangle-down:before {
+  content: "\e09f";
+}
+.ficon-triangle-left:before {
+  content: "\e0a0";
+}
+.ficon-triangle-right:before {
+  content: "\e0a1";
+}
+.ficon-triangle-up:before {
+  content: "\e0a2";
+}
+.ficon-undo:before {
+  content: "\e0a3";
+}
+.ficon-user:before {
+  content: "\e0a4";
+}
+.ficon-user-profile:before {
+  content: "\e0a5";
+}
+.ficon-varia:before {
+  content: "\e0a6";
+}
+.ficon-view:before {
+  content: "\e0a7";
+}
+.ficon-view-eye:before {
+  content: "\e0a8";
+}
+.ficon-wallet-33:before {
+  content: "\e0a9";
+}
+.ficon-warning-3:before {
+  content: "\e0aa";
+}
+.ficon-window:before {
+  content: "\e0ab";
+}
+.ficon-wip:before {
+  content: "\e0ac";
+}
+.ficon-woman-profile:before {
+  content: "\e0ad";
+}
+.ficon-work-wear:before {
+  content: "\e0ae";
+}
+.ficon-workflow:before {
+  content: "\e0af";
+}
+.ficon-x-alt:before {
+  content: "\e0b0";
+}
+.ficon-year-overview:before {
+  content: "\e0b3";
+}
+.ficon-zoom-in:before {
+  content: "\e0b1";
+}
+.ficon-zoom-out:before {
+  content: "\e0b2";
+}
