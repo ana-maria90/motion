@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'motion';
-  src:  url('fonts/motion.eot?vbkcy2');
-  src:  url('fonts/motion.eot?vbkcy2#iefix') format('embedded-opentype'),
-    url('fonts/motion.ttf?vbkcy2') format('truetype'),
-    url('fonts/motion.woff?vbkcy2') format('woff'),
-    url('fonts/motion.svg?vbkcy2#motion') format('svg');
+  src:  url('fonts/motion.eot?9w0s75');
+  src:  url('fonts/motion.eot?9w0s75#iefix') format('embedded-opentype'),
+    url('fonts/motion.ttf?9w0s75') format('truetype'),
+    url('fonts/motion.woff?9w0s75') format('woff'),
+    url('fonts/motion.svg?9w0s75#motion') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -147,6 +147,12 @@
 .ficon-coworkers:before {
   content: "\e0be";
 }
+.ficon-cursor-click:before {
+  content: "\e903";
+}
+.ficon-cursor-drag:before {
+  content: "\e904";
+}
 .ficon-cutlery:before {
   content: "\e025";
 }
@@ -276,6 +282,9 @@
 .ficon-help-documents:before {
   content: "\e049";
 }
+.ficon-hollow-star:before {
+  content: "\e901";
+}
 .ficon-home-dashboard:before {
   content: "\e04a";
 }
@@ -324,6 +333,9 @@
 .ficon-link:before {
   content: "\e058";
 }
+.ficon-list-star:before {
+  content: "\e902";
+}
 .ficon-list-ul:before {
   content: "\e059";
 }
@@ -338,6 +350,9 @@
 }
 .ficon-logout:before {
   content: "\e05c";
+}
+.ficon-long-tap:before {
+  content: "\e905";
 }
 .ficon-man-profile:before {
   content: "\e05d";
@@ -359,6 +374,9 @@
 }
 .ficon-message-bubble:before {
   content: "\e063";
+}
+.ficon-mobile-drag:before {
+  content: "\e906";
 }
 .ficon-moon:before {
   content: "\e064";
@@ -389,6 +407,9 @@
 }
 .ficon-no-results:before {
   content: "\e06c";
+}
+.ficon-normal-tap:before {
+  content: "\e907";
 }
 .ficon-ok:before {
   content: "\e06d";
