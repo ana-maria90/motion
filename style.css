@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'motion';
-  src:  url('fonts/motion.eot?9w0s75');
-  src:  url('fonts/motion.eot?9w0s75#iefix') format('embedded-opentype'),
-    url('fonts/motion.ttf?9w0s75') format('truetype'),
-    url('fonts/motion.woff?9w0s75') format('woff'),
-    url('fonts/motion.svg?9w0s75#motion') format('svg');
+  src:  url('fonts/motion.eot?6so6r9');
+  src:  url('fonts/motion.eot?6so6r9#iefix') format('embedded-opentype'),
+    url('fonts/motion.ttf?6so6r9') format('truetype'),
+    url('fonts/motion.woff?6so6r9') format('woff'),
+    url('fonts/motion.svg?6so6r9#motion') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -53,6 +53,9 @@
 }
 .ficon-attachment:before {
   content: "\e009";
+}
+.ficon-audit:before {
+  content: "\e908";
 }
 .ficon-bell:before {
   content: "\e00a";
