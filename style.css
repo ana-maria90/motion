@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'motion';
-  src:  url('fonts/motion.eot?xjss5m');
-  src:  url('fonts/motion.eot?xjss5m#iefix') format('embedded-opentype'),
-    url('fonts/motion.ttf?xjss5m') format('truetype'),
-    url('fonts/motion.woff?xjss5m') format('woff'),
-    url('fonts/motion.svg?xjss5m#motion') format('svg');
+  src:  url('fonts/motion.eot?4zwmsa');
+  src:  url('fonts/motion.eot?4zwmsa#iefix') format('embedded-opentype'),
+    url('fonts/motion.ttf?4zwmsa') format('truetype'),
+    url('fonts/motion.woff?4zwmsa') format('woff'),
+    url('fonts/motion.svg?4zwmsa#motion') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ficon-signature:before {
+  content: "\e90a";
+}
 .ficon-absence:before {
   content: "\e000";
 }
@@ -538,9 +541,6 @@
 .ficon-show-more:before {
   content: "\e092";
 }
-.ficon-signature:before {
-  content: "\e90a";
-}
 .ficon-speedometer:before {
   content: "\e093";
 }
@@ -624,6 +624,12 @@
 }
 .ficon-work-wear:before {
   content: "\e0ae";
+}
+.ficon-workflow:before {
+  content: "\e0af";
+}
+.ficon-x-alt:before {
+  content: "\e0b0";
 }
 .ficon-year-overview:before {
   content: "\e0b3";
